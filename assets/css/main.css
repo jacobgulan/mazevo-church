@@ -175,6 +175,20 @@ input, select, textarea {
 			color: inherit;
 			text-decoration: none;
 		}
+	
+	h1 {
+		font-size: 2em;
+		line-height: 1.75em;
+	}
+
+		@media screen and (max-width: 736px) {
+
+			h1 {
+				font-size: 1.3em;
+				line-height: 1.65em;
+			}
+
+		}
 
 	h2 {
 		font-size: 1.35em;
@@ -3151,7 +3165,7 @@ input, select, textarea {
 				color: #2E3842;
 			}
 
-			.wrapper.style5 h2, .wrapper.style5 h3, .wrapper.style5 h4, .wrapper.style5 h5, .wrapper.style5 h6 {
+			.wrapper.style5 h1, .wrapper.style5 h2, .wrapper.style5 h3, .wrapper.style5 h4, .wrapper.style5 h5, .wrapper.style5 h6 {
 				color: #2E3842;
 			}
 
@@ -3886,10 +3900,10 @@ input, select, textarea {
 
 	#gatherings > header {
 		padding: 12em 0 10em 0 ;
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/gathering.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/gathering.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/gathering.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/gathering.jpg");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/worship.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/worship.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/worship.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/worship.jpg");
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
