@@ -3896,6 +3896,78 @@ input, select, textarea {
 		background-attachment: scroll;
 	}
 
+/* About us */
+
+#aboutus > header {
+	padding: 12em 0 10em 0 ;
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner-charlotte.jpg");
+	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner-charlotte.jpg");
+	background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner-charlotte.jpg");
+	background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner-charlotte.jpg");
+	background-attachment: fixed;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+
+	#aboutus > header h2 {
+		font-size: 1.75em;
+		margin: 0 0 0.5em 0;
+	}
+
+	#aboutus > header p {
+		color: inherit;
+		letter-spacing: 0.225em;
+		text-transform: uppercase;
+		top: 0;
+	}
+
+		#aboutus > header p a {
+			color: inherit;
+		}
+
+	@media screen and (max-width: 1680px) {
+
+		#aboutus > header {
+			padding: 10em 0 8em 0 ;
+		}
+
+	}
+
+	@media screen and (max-width: 1280px) {
+
+		#aboutus > header {
+			padding: 8em 3em 6em 3em ;
+		}
+
+	}
+
+	@media screen and (max-width: 980px) {
+
+		#aboutus > header {
+			padding: 10em 3em 8em 3em ;
+		}
+
+	}
+
+	@media screen and (max-width: 736px) {
+
+		#aboutus > header {
+			padding: 5em 3em 3em 3em ;
+		}
+
+			#aboutus > header h2 {
+				font-size: 1.25em;
+				margin: 0 0 1em 0;
+			}
+
+	}
+
+body.is-mobile #aboutus > header {
+	background-attachment: scroll;
+}
+
 /* Gatherings */
 
 	#gatherings > header {
