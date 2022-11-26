@@ -1953,9 +1953,9 @@ body.is-mobile {
 #aboutus {
 	> header {
 		@include padding(12em, 0);
-		@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../../images/banner-charlotte.jpg")'));
+		@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../../images/story.jpg")'));
 		background-attachment: fixed;
-		background-position: center center;
+		background-position: 50% 75%;
 		background-repeat: no-repeat;
 		background-size: cover;
 		text-align: center;
