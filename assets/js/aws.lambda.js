@@ -1,5 +1,24 @@
 function callAwsLambdaFunction(formName, method, apiEndpoint) {
-    const formData = new FormData(document.querySelector(`form[data-form="${formName}"]`));
+    toastr.options = {
+        "closeButton": false,
+        "debug": false,
+        "newestOnTop": false,
+        "progressBar": false,
+        "positionClass": "toast-bottom-full-width",
+        "preventDuplicates": false,
+        "onclick": null,
+        "showDuration": "300",
+        "hideDuration": "1000",
+        "timeOut": "4000",
+        "extendedTimeOut": "1000",
+        "showEasing": "swing",
+        "hideEasing": "linear",
+        "showMethod": "fadeIn",
+        "hideMethod": "fadeOut"
+    }
+
+    const form = document.querySelector(`form[data-form="${formName}"]`)
+    const formData = new FormData(form);
     const data = JSON.stringify(Object.fromEntries(formData.entries()));
 
     var myHeaders = new Headers();
@@ -14,6 +33,14 @@ function callAwsLambdaFunction(formName, method, apiEndpoint) {
 
     fetch(`https://api.mazevo.church/${apiEndpoint}`, requestOptions)
         .then(response => response.text())
-        .then(result => console.log(result))
-        .catch(error => console.log('error', error));
+        .then((result) => {
+            console.log(result)
+            toastr["success"]("Request sent successfully", "Success")
+            form.reset();
+        })
+        .catch((error) => {
+            console.log(error)
+            toastr["error"]("There was an error sending the request", "Error")
+        });
+
 }
