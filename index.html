@@ -158,20 +158,20 @@
 						<div class="inner">
 							<h4>How can we pray for you?</h4>
 							<p>We want to pray for you. Our prayer team meets at 3 PM before our gathering to pray over every prayer request. Please fill out the form below to be added to our prayer list. </p>
-							<form method="post" action="#">
+							<form data-form="prayer-request" method="POST" action="" onsubmit="return false">
 								<div class="row gtr-uniform">
 									<div class="col-6 col-12-xsmall">
-										<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+										<input type="text" name="name" id="name" value="" placeholder="Name" />
 									</div>
 									<div class="col-6 col-12-xsmall">
-										<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+										<input type="email" name="email" id="email" value="" placeholder="Email" />
 									</div>
 									<div class="col-12">
-										<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+										<textarea name="prayer_request" id="prayer_request" placeholder="Enter your message" rows="6"  maxlength="1024"></textarea>
 									</div>
 									<div class="col-12">
 										<ul class="actions">
-											<li><input type="submit" value="Send Message" class="primary" /></li>
+											<li><input type="submit" value="Send Message" class="primary" onmouseup="callAwsLambdaFunction('prayer-request', 'POST', 'prayer-request')"/></li>
 										</ul>
 									</div>
 								</div>
@@ -197,6 +197,7 @@
 			</div>
 
 		<!-- Scripts -->
+			<script src="assets/js/aws.lambda.js"></script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
