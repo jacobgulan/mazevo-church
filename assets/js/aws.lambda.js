@@ -35,7 +35,7 @@ function callAwsLambdaFunction(formName, method, apiEndpoint) {
         .then(response => response.text())
         .then((result) => {
             console.log(result)
-            toastr["success"]("Request sent successfully", "Success")
+            toastr["success"]("Success")
             form.reset();
         })
         .catch((error) => {
