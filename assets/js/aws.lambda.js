@@ -1,4 +1,4 @@
-function callAwsLambdaFunction(formName, method) {
+function callAwsLambdaFunction(formName, method, apiEndpoint) {
     const formData = new FormData(document.querySelector(`form[data-form="${formName}"]`));
     const data = JSON.stringify(Object.fromEntries(formData.entries()));
 
@@ -12,7 +12,7 @@ function callAwsLambdaFunction(formName, method) {
         redirect: 'follow'
     };
 
-    fetch("https://dev-api.mazevo.church/email-list", requestOptions)
+    fetch(`https://api.mazevo.church/${apiEndpoint}`, requestOptions)
         .then(response => response.text())
         .then(result => console.log(result))
         .catch(error => console.log('error', error));
