@@ -3955,6 +3955,7 @@ input, select, textarea {
 
 		#aboutus > header {
 			padding: 5em 3em 3em 3em ;
+			background-position: 50% 50%;
 		}
 
 			#aboutus > header h2 {
@@ -3964,9 +3965,9 @@ input, select, textarea {
 
 	}
 
-body.is-mobile #aboutus > header {
-	background-attachment: scroll;
-}
+	body.is-mobile #aboutus > header {
+		background-attachment: scroll;
+	}
 
 /* Beliefs */
 
@@ -4034,6 +4035,10 @@ body.is-mobile #aboutus > header {
 				margin: 0 0 1em 0;
 			}
 
+	}
+
+	body.is-mobile #beliefs > header {
+		background-attachment: scroll;
 	}
 
 
@@ -4105,9 +4110,9 @@ body.is-mobile #aboutus > header {
 
 	}
 
-body.is-mobile #connect > header {
-	background-attachment: scroll;
-}
+	body.is-mobile #connect > header {
+		background-attachment: scroll;
+	}
 
 /* Gatherings */
 
@@ -4250,9 +4255,9 @@ body.is-mobile #connect > header {
 
 	}
 
-body.is-mobile #gatherings > header {
-	background-attachment: scroll;
-}
+	body.is-mobile #giving > header {
+		background-attachment: scroll;
+	}
 
 /* Footer */
 
