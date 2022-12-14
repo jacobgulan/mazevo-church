@@ -3931,8 +3931,8 @@ input, select, textarea {
 	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/story.jpg");
 	background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/story.jpg");
 	background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/story.jpg");
-	background-attachment: fixed;
-	background-position: 50% 75%;
+	background-attachment: scroll;
+	background-position: 50% 70%;
 	background-repeat: no-repeat;
 	background-size: cover;
 	text-align: center;
@@ -4004,7 +4004,7 @@ input, select, textarea {
 	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/teaching.jpg");
 	background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/teaching.jpg");
 	background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/teaching.jpg");
-	background-attachment: fixed;
+	background-attachment: scroll;
 	background-position: 50% 70%;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -4077,8 +4077,8 @@ input, select, textarea {
 	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/connect.jpg");
 	background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/connect.jpg");
 	background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/connect.jpg");
-	background-attachment: fixed;
-	background-position: center center;
+	background-attachment: scroll;
+	background-position: center 45%;
 	background-repeat: no-repeat;
 	background-size: cover;
 	text-align: center;
@@ -4149,7 +4149,7 @@ input, select, textarea {
 		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/worship.jpg");
 		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/worship.jpg");
 		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/worship.jpg");
-		background-attachment: fixed;
+		background-attachment: scroll;
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -4222,7 +4222,7 @@ input, select, textarea {
 	background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/cuba-missions.jpg");
 	background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/cuba-missions.jpg");
 	background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/cuba-missions.jpg");
-	background-attachment: fixed;
+	background-attachment: scroll;
 	background-position: 50% 80%;
 	background-repeat: no-repeat;
 	background-size: cover;
