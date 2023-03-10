@@ -1776,7 +1776,7 @@
 			@include padding(12em, 0);
 			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../../images/banner.jpg")'));
 			background-attachment: fixed;
-			background-position: center center;
+			background-position: bottom center;
 			background-repeat: no-repeat;
 			background-size: cover;
 			text-align: center;
@@ -2190,7 +2190,7 @@ body.is-mobile {
 		#page-wrapper {
 			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../../images/banner.jpg")'));
 			background-attachment: fixed;
-			background-position: center center;
+			background-position: bottom center;
 			background-repeat: no-repeat;
 			background-size: cover;
 			padding-top: 0;
@@ -2210,7 +2210,7 @@ body.is-mobile {
 			#banner,
 			.wrapper.style4 {
 				@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../../images/banner.jpg")'));
-				background-position: center center;
+				background-position: bottom center;
 				background-repeat: no-repeat;
 				background-size: cover;
 			}
